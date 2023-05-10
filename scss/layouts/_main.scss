@@ -92,7 +92,7 @@
 .col{
     a:hover{
         color:red;
-        text-decoration: underline;
-        scale: 2;
+        transform: scale(2);
+        transition: all 1s;
     }
 }
