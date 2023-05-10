@@ -379,7 +379,6 @@
     }
 }
 
-
 .descripcion p{
         padding: 5px;
 }
@@ -404,7 +403,6 @@
 
 
 @media screen and (min-width:900px) {
-
     .galeria-q76{
         @include flexible(flex, row, wrap, center, center);
         padding: 30px;
@@ -414,7 +412,6 @@
             border-radius: 40px;
             justify-content: center;
             align-items: center;
-           
         }
         .q76-muestra, .q76-accesorios{
             position: relative;
@@ -445,4 +442,6 @@
 }
 
 
-/*-------------------------- Galeria Quadra Q76-a----------------------------*/
+
+
+
