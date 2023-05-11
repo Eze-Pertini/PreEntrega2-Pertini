@@ -6,10 +6,12 @@
     color: nth($colores, 7);
     margin-bottom: 25px;
     font-size: 40px;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
     margin-left: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
-    text-decoration: underline;
 }
 
 .grid-curve-container {
@@ -95,10 +97,9 @@
         display: none;
     }
 }
-/*-------------------------- FIN GRILLA IMAGENES CURVE----------------------------*/
 
 
-/*--------------------------pileta cocina - INICIO GALERIA IMAGENES bootstrap SASS----------------------------*/
+/*--------------------------pileta cocina -GALERIA IMAGENES bootstrap SASS----------------------------*/
 
 #pileta-cocina{
     .col-lg-4{
@@ -128,7 +129,6 @@
     }
 }
 
-/*--------------------------pileta cocina - FIN GALERIA IMAGENES bootstrap----------------------------*/
 
 /*--------------------------SECCIONES PILETAS SIMPLES SASS----------------------------*/
 
@@ -146,6 +146,9 @@
     }
     h1{
         color: darkblue;
+        font-weight: 300;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
         margin-bottom: 25px;
         font-size: 40px;
         margin-left: 25px;
@@ -213,12 +216,14 @@
     }
     h1{
         color: darkblue;
+        font-weight: 300;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
         margin-bottom: 25px;
         font-size: 40px;
         margin-left: 25px;
         margin-top: 25px;
         margin-bottom: 0;
-        text-decoration: underline;
     }
     h2{
         color: darkblue;
@@ -247,12 +252,14 @@
     }
     h1{
         color: darkblue;
+        font-weight: 300;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
         margin-bottom: 25px;
         font-size: 40px;
         margin-left: 25px;
         margin-top: 25px;
         margin-bottom: 0;
-        text-decoration: underline;
     }
     p{
         color: darkblue;
@@ -265,6 +272,7 @@
             color: #000;
             text-decoration: none;
             font-weight: 200;
+            font-size: medium;
             font-style: oblique;
             margin-bottom: 0;
         
@@ -280,7 +288,7 @@
 }
 
 
-/*-------------------------- GALERIA GRIFERIAS bootstrap SASS----------------------------*/
+/*-------------------------- GALERIA GRIFERIAS bootstrap ----------------------------*/
 
 #galeria-griferias{
 
@@ -314,6 +322,7 @@
     .div-texto h4{
         color: #000;
         text-decoration: none;
+        font-size: medium;
         font-weight: 200;
         font-style: oblique;
         margin-bottom: 0;
@@ -330,16 +339,16 @@
 
 
 
-/*-------------------------- INICIO MINI LUXOR - GALERIA IMAGENES bootstrap----------------------------*/
+/*-------------------------- MINI LUXOR - GALERIA IMAGENES----------------------------*/
 
 #mini-luxor img{
     width: 355px;
     height: 300px;
 }
 
-/*-------------------------- FIN MINI LUXOR - GALERIA IMAGENES bootstrap----------------------------*/
 
-/*-------------------------- INICIO galeria-r63 - GALERIA IMAGENES bootstrap----------------------------*/
+
+/*-------------------------- MODELO-R63 - GALERIA IMAGENES----------------------------*/
 
 
 #galeria-r63 img{
@@ -348,23 +357,70 @@
 }
 
 
-/*-------------------------- FIN galeria-r63 - GALERIA IMAGENES bootstrap----------------------------*/
-
-/*-------------------------- inicio Quadra Q55 - GALERIA IMAGENES bootstrap----------------------------*/
+/*-------------------------- QUADRA Q55 - GALERIA IMAGENES ----------------------------*/
 
 #quadra-q55 img{
     width: 400px;
     height: 300px;
 }
 
-/*-------------------------- FIN Quadra Q55 - GALERIA IMAGENES bootstrap----------------------------*/
+/*-------------------------- GALERIA IMAGENES GRIFERIA GOURMET----------------------------*/
 
-#griferia-gourmet img{
-    width: 250px;
-    height: 525px;
+#griferia-gourmet {
+    .col-lg-4{
+        padding: 25px;
+    }
+
+    img{
+        width: 250px;
+        height: 525px;
+        border-radius: 20%;
+        border: solid 1px cadetblue;;
+        &:hover{
+            border: 5px solid #f7f7f7;
+        }
+    }
+    h1{
+        color: darkblue;
+        font-weight: 300;
+        margin-bottom: 25px;
+        font-size: 40px;
+        margin-left: 25px;
+        margin-top: 25px;
+        margin-bottom: 0;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        
+    }
+    p{
+        color: darkblue;
+        margin-bottom: 25px;
+        font-size: 20px;
+        @include flexible(flex, row, wrap, center, center);
+    }
+    .div-texto{
+        h4{
+            color: #000;
+            text-decoration: none;
+            font-weight: 200;
+            font-size: medium;
+            font-style: oblique;
+            margin-bottom: 0;
+        
+        }
+        span{
+            color: $color-precio;
+            text-decoration: none;
+            font-weight: 200;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    }
 }
 
-/*-------------------------- Galeria Quadra Q76-a----------------------------*/
+
+
+/*-------------------------- Galeria QUADRA Q76-a----------------------------*/
 
 
 .galeria-q76{
@@ -384,7 +440,6 @@
 }
 
 
-
 @media screen and (min-width:500px)
 {
     .galeria-q76{
@@ -398,8 +453,6 @@
         }
     }
 }
-
-
 
 
 @media screen and (min-width:900px) {
@@ -441,10 +494,7 @@
     }
 }
 
-/*-------------------------- Galeria Accerorios----------------------------*/
-
-
-
+/*-------------------------- Galeria ACCESORIOS----------------------------*/
 
 #accesorios{
     .col-lg-4{
@@ -461,12 +511,14 @@
     }
     h1{
         color: darkblue;
+        font-weight: 300;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
         margin-bottom: 25px;
         font-size: 40px;
         margin-left: 25px;
         margin-top: 25px;
         margin-bottom: 0;
-        text-decoration: underline;
     }
     h2{
         color: darkblue;
