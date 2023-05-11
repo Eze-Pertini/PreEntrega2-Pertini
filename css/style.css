@@ -672,5 +672,36 @@ footer .col-lg-4 a:hover {
     transition: all 1s;
   }
 }
+/*-------------------------- Galeria Accerorios----------------------------*/
+#accesorios .col-lg-4 {
+  padding: 25px;
+}
+#accesorios img {
+  width: 100%;
+  height: 250px;
+  border-radius: 40px;
+}
+#accesorios img:hover {
+  border: 5px solid #f7f7f7;
+  filter: brightness(120%);
+}
+#accesorios h1 {
+  color: darkblue;
+  margin-bottom: 25px;
+  font-size: 40px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+#accesorios h2 {
+  color: darkblue;
+  margin-bottom: 25px;
+  font-size: 20px;
+  display: flex;
+  flex-flow: row, wrap;
+  justify-content: center;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -441,7 +441,37 @@
     }
 }
 
+/*-------------------------- Galeria Accerorios----------------------------*/
 
 
 
 
+#accesorios{
+    .col-lg-4{
+        padding: 25px;
+    }
+    img{
+        width: 100%;
+        height: 250px;
+        border-radius: 40px;
+        &:hover{
+            border: 5px solid #f7f7f7;
+            filter: brightness(120%);
+        }
+    }
+    h1{
+        color: darkblue;
+        margin-bottom: 25px;
+        font-size: 40px;
+        margin-left: 25px;
+        margin-top: 25px;
+        margin-bottom: 0;
+        text-decoration: underline;
+    }
+    h2{
+        color: darkblue;
+        margin-bottom: 25px;
+        font-size: 20px;
+        @include flexible(flex, row, wrap, center, center);
+    }
+}
