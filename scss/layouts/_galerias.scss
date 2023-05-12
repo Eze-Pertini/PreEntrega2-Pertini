@@ -527,3 +527,131 @@
         @include flexible(flex, row, wrap, center, center);
     }
 }
+
+/*-------------------------- Galeria QUADRA Q085-a ----------------------------*/
+
+
+.galeria-q085a{
+    @include grilla(grid, repeat(3, 300px), repeat(auto));
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 330px;
+        height: 280px;
+        border-radius: 40px;
+        padding: 5px;
+    }
+}
+
+
+.galeria2-q085a{
+    @include grilla(grid, repeat(2, 300px), repeat(auto));
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 330px;
+        height: 280px;
+        border-radius: 40px;
+        padding: 5px;
+    }
+}
+
+.descripcion p{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width:500px)
+{
+    .galeria-q085a{
+        @include grilla(grid, repeat(2, auto), repeat(2, auto));
+        padding: 10px;
+        img{
+            padding: 5px;
+            width: 350px;
+            height: 300px;
+            border-radius: 40px;
+        }
+    }
+
+    .galeria2-q085a{
+        @include grilla(grid, repeat(2, auto), repeat(2, auto));
+        padding: 10px;
+        img{
+            padding: 5px;
+            width: 350px;
+            height: 300px;
+            border-radius: 40px;
+        }
+    }
+}
+
+
+@media screen and (min-width:900px) {
+    .galeria-q085a{
+        @include flexible(flex, row, wrap, center, center);
+        padding: 30px;
+        img{
+            width: 20%;
+            height: 300px;
+            border-radius: 40px;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .q085-1{
+            
+            &:hover{
+                transform: scale(1.1) translateX(-40px) translateY(40px);
+                transition: all 1s ease-in-out;
+            }
+            
+        }
+        .q085-3{
+            &:hover{
+                transform: translateX(40px) translateY(40px) scale(1.1);
+                transition: all 1s ease-in-out;
+            }
+        }
+        .q085-instalada{
+            &:hover{
+                transform: scale(1.1);
+                transition: all 1s ease-in-out;
+            }
+        }
+    }
+    .galeria2-q085a{
+        @include flexible(flex, row, wrap, center, center);
+        padding: 30px;
+        img{
+            width: 20%;
+            height: 300px;
+            border-radius: 40px;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+        .q085-2{
+            &:hover{
+                transform: scale(1.1);
+                transition: all 1s ease-in-out;
+            }
+        }
+        .q085-medidas{
+
+            &:hover{
+                transform: scale(1.1);
+                transition: all 1s ease-in-out;
+            }
+        }
+
+    }
+    .descripcion{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
