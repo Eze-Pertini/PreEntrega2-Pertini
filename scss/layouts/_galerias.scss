@@ -655,3 +655,28 @@
         margin-bottom: 30px;
     }
 }
+
+/*-------------------------- MODELO-RR37 - GALERIA IMAGENES----------------------------*/
+
+
+#galeria-rr37{
+    img{
+        border-radius: 40px;
+        width: 500px;
+        height: 320px;
+        border: 1px solid lightblue;
+        &:hover{
+            border: 5px solid #f7f7f7;
+            transform: scale(1.1);
+        }
+    }
+    // .rr37-img{
+    //     width: 500px;
+    //     height: 340px;
+    // }
+    // .rr37-planos{
+    //     width: 225px;
+    //     height: 300px;
+    // }
+}
+

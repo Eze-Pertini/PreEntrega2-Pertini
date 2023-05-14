@@ -225,6 +225,9 @@ header .navbar .nav-link:hover {
 }
 
 /*Footer*/
+footer {
+  background-color: #AEB6BF;
+}
 footer .logo {
   width: 100%;
   height: 100px;
@@ -235,15 +238,23 @@ footer .email {
   color: black;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-top: 10px;
-  margin-bottom: 0px;
 }
 footer .copy {
   justify-content: center;
   color: black;
 }
+footer .firma {
+  text-align: center;
+}
 footer .fa-brands .fa-facebook {
   width: 150px;
   height: 150px;
+}
+footer .col-lg-2 {
+  margin-bottom: 10px;
+}
+footer .col-lg-2 a {
+  color: darkblue;
 }
 footer .col-lg-3 a:hover {
   font-style: oblique;
@@ -251,8 +262,63 @@ footer .col-lg-3 a:hover {
   border-radius: 4px;
   background-color: grey;
 }
+footer .col-lg-3 .links-footer {
+  padding-inline-start: 150px;
+}
+footer .col-lg-4 {
+  padding-left: 10px;
+}
 footer .col-lg-4 a:hover {
   scale: 1.2;
+}
+footer .col-lg-4 .iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .col-lg-4 .fa-brands:hover {
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+footer .col-lg-4 .fa-facebook {
+  color: darkblue;
+}
+footer .col-lg-4 .fa-instagram {
+  color: #C13584;
+}
+footer .col-lg-4 .fa-whatsapp {
+  color: darkgreen;
+}
+footer .col-lg-4 h2 {
+  font-weight: 400;
+  display: flex;
+  justify-items: right;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  footer .col-lg-4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer .col-lg-4 h2 {
+    font-weight: 400;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+  }
+  footer .col-lg-4 .iconos {
+    justify-content: center;
+  }
+  footer .col-lg-3 .links-footer-1 {
+    display: none;
+  }
+  footer .col-lg-3 .links-footer-2 {
+    padding-inline-start: 0px;
+    text-align: center;
+  }
+  footer .col-lg-2 {
+    text-align: center;
+  }
 }
 
 /*Galerias de imagenes*/
@@ -867,6 +933,17 @@ footer .col-lg-4 a:hover {
     text-align: center;
     margin-bottom: 30px;
   }
+}
+/*-------------------------- MODELO-RR37 - GALERIA IMAGENES----------------------------*/
+#galeria-rr37 img {
+  border-radius: 40px;
+  width: 500px;
+  height: 320px;
+  border: 1px solid lightblue;
+}
+#galeria-rr37 img:hover {
+  border: 5px solid #f7f7f7;
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
