@@ -662,8 +662,8 @@ footer .col-lg-4 h2 {
 }
 
 /*-------------------------- GALERIA IMAGENES GRIFERIA GOURMET----------------------------*/
-#griferia-gourmet .col-lg-4 {
-  padding: 25px;
+#griferia-gourmet .col-lg-3 {
+  padding: 15px;
 }
 #griferia-gourmet img {
   width: 250px;
@@ -942,6 +942,30 @@ footer .col-lg-4 h2 {
   border: 1px solid lightblue;
 }
 #galeria-rr37 img:hover {
+  border: 5px solid #f7f7f7;
+  transform: scale(1.1);
+}
+
+/*-------------------------- MODELO-CC28 - GALERIA IMAGENES----------------------------*/
+#galeria-cc28 img {
+  border-radius: 40px;
+  width: 500px;
+  height: 320px;
+  border: 1px solid lightblue;
+}
+#galeria-cc28 img:hover {
+  border: 5px solid #f7f7f7;
+  transform: scale(1.1);
+}
+
+/*-------------------------- MODELO-CC37 - GALERIA IMAGENES----------------------------*/
+#galeria-cc37 img {
+  border-radius: 40px;
+  width: 500px;
+  height: 320px;
+  border: 1px solid lightblue;
+}
+#galeria-cc37 img:hover {
   border: 5px solid #f7f7f7;
   transform: scale(1.1);
 }
