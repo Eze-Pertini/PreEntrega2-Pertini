@@ -13,6 +13,14 @@
   text-transform: none;
   list-style: none;
 } /*MAIN*/
+@media screen and (min-width: 350px) {
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 /*-------------------------- SECCIONES INDEX MAIN PRINCIPAL - DESTACADAS ----------------------------*/
 #destacadas .col-lg-4 {
   padding: 25px;
