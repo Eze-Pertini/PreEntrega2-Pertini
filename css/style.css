@@ -13,14 +13,6 @@
   text-transform: none;
   list-style: none;
 } /*MAIN*/
-@media screen and (min-width: 350px) {
-  .container-fluid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 /*-------------------------- SECCIONES INDEX MAIN PRINCIPAL - DESTACADAS ----------------------------*/
 #destacadas .col-lg-4 {
   padding: 25px;
@@ -313,7 +305,7 @@ footer .col-lg-4 h2 {
   justify-items: right;
   justify-content: center;
 }
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 800px) {
   footer .col-lg-4 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -729,6 +721,24 @@ footer .col-lg-4 h2 {
   font-weight: 200;
   margin-bottom: 10px;
   font-weight: bold;
+}
+
+.titulo-gourmet {
+  color: darkblue;
+  text-align: center;
+  font-weight: 300;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  margin-bottom: 25px;
+  font-size: 40px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 450px) {
+  .titulo-gourmet {
+    text-align: left;
+  }
 }
 
 /*-------------------------- Galeria QUADRA Q76-a----------------------------*/

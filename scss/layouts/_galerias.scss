@@ -417,6 +417,22 @@
     }
 }
 
+.titulo-gourmet{
+    color: darkblue;
+    text-align: center;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    @media screen and (max-width:450px) {
+        text-align: left;
+    }
+}
+
 
 
 /*-------------------------- Galeria QUADRA Q76-a----------------------------*/
